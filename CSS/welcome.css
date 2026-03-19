@@ -1,0 +1,127 @@
+/* Body styles */
+main {
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("../photo/f.jpg");
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Main styles */
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Content wrapper styles */
+  .content_wel {
+    text-align: center;
+    padding: 50px;
+    background-color: #f7fbfd;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    max-width: 600px;
+  }
+  
+  .content_wel h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #1a1a1a;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  .content_wel p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Username styles */
+  .username {
+    color: #007bff;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Buttons styles */
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  
+  .btn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-transform: uppercase;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+    background-color: #0056b3;
+  }
+  
+  .btn a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .btn:first-child {
+    background-color: #dc3545;
+    margin-right: 20px;
+  }
+  
+  .btn:first-child:hover {
+    background-color: #c82333;
+  }
+  
+  .btn:last-child {
+    background-color: #a728a3;
+  }
+  
+  .btn:last-child:hover {
+    background-color: #6f156c;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .content_wel {
+      padding: 30px;
+    }
+  
+    .content_wel h1 {
+      font-size: 2.5em;
+    }
+  
+    .content_wel p {
+      font-size: 1.2em;
+    }
+  
+    .btn {
+      font-size: 1em;
+    }
+  }
+  #logout-btn {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #logout-btn {
+    background-color: #ff0000;
+    color: #fff;
+}

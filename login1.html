@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <title>Login Form</title>
+      <link rel="stylesheet" href="./Assets/style.css">
+      <link rel="stylesheet" href="./CSS/login1.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css" />
+   
+   </head>
+   <body>
+    <Header Class="Site-Header">
+          
+        <Div Class="Site-Identity">
+
+            <H1><A Href="Index.html">
+              <span><img class="logo" src="./images/bubble-chat.png" alt="LOGO-IMG" srcset="">
+              </span> ChitChat</A></H1>
+            
+
+        </Div>
+        <Nav Class="Site-Navigation">
+            <Ul Class="Nav">
+                <Li><A Href="Index.html">Home</A></Li>
+                <Li><A Href="about.html">About</A></Li>
+                <Li><A Href="contact.html">Feedback</A></Li>
+                <Li><A style="text-decoration: underline; color: brown;text-transform: uppercase;" Href="login1.html">Login</A></i></Li>
+                <Li><A Href="register1.html">Register</A></Li>
+            </Ul>
+        </Nav>
+    </Header>
+    <main>
+      <div class="center">
+        <h1 class="line">Login to Chat</h1>
+        <h2 class="slogan">Connect with the world, one chat at a time.</h2>
+        <form method="post" action="login.php">
+          <div class="input-container">
+            <input type="email" placeholder="Email" name="email" id="email" required>
+            <i class="fas fa-user"></i>
+          </div>
+          <div class="input-container">
+            <input id="pswrd" type="password" name="pswrd" placeholder="Password" required>
+            <i class="fas fa-lock" onclick="togglePasswordVisibility()"></i>
+          </div>
+          <div class="input-container">
+            <input type="submit" value="Login">
+          </div>
+          <a href="#" class="forgot-password">Forgot Password?</a>
+        </form>
+      </div>
+    </main>
+    
+    
+       
+    </main>
+    <footer class="footer">
+        <div class="copy">&copy; CHITCHAT DEVELOPERS</div>
+        <div class="bottom-links">
+          <div class="links">
+            <span>More Info</span>
+            <a href="Index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+          </div>
+          <div class="links">
+            <span>Social Links</span>
+            <a href="#"><i class="bi bi-facebook"></i></a>
+            <a href="#"><i class="bi bi-twitter"></i></a>
+            <a href="#"><i class="bi bi-instagram"></i></a>
+          </div>
+        </div>
+      </footer>
+      
+    
+   </body>
+   <script src="./JS/pass-show.js"></script>
+   <script>
+    window.addEventListener('load', function() {
+  document.querySelector('form').classList.add('loaded');
+});
+
+   </script>
+</html>

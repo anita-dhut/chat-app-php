@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Thank You for Your Feedback</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+  </head>
+  <style>
+    /* Global styles */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  max-width: 500px;
+  width: 100%;
+  padding: 40px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #007bff;
+}
+
+.icon-container {
+  width: 120px;
+  height: 120px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #007bff;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+.card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+
+.icon-container img {
+  width: 80px;
+}
+
+.card-text p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 18px;
+  padding: 12px 24px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styles */
+
+@media screen and (max-width: 600px) {
+  .card {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .icon-container {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .icon-container img {
+    width: 60px;
+  }
+  
+  .card-text p {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .btn {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
+
+  </style>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="card-body">
+          <h1 class="card-title">Thank You for Your Feedback!</h1>
+          <div class="icon-container">
+            <img src="./Images/thubs_up.png" alt="Thumbs up icon">
+          </div>
+          <div class="card-text">
+            <p>We appreciate your input and will use it to improve our website.</p>
+            <p>If you have any further comments or suggestions, please feel free to contact us.</p>
+          </div>
+          <a href="index.html" class="btn">Back to Home</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

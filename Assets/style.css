@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+/* Global Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: brown;
+}
+
+/* Header Styles */
+.Site-Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+}
+
+.Site-Identity h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.Site-Identity img {
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  margin-right: 0.5rem;
+}
+
+.Site-Navigation {
+  display: flex;
+  align-items: center;
+}
+
+.Nav {
+  display: flex;
+  list-style: none;
+  margin-right: 1rem;
+}
+
+.Nav li {
+  margin-right: 1.5rem;
+}
+
+.Nav a {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+/* CSS for main section */
+
+/* CSS for footer */
+.footer {
+  background-image: linear-gradient(to bottom, #302f49, #1c1b2e);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #302f49;
+  padding: 40px 80px;
+}
+
+.footer .copy {
+  color: #fff;
+}
+
+.bottom-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.bottom-links .links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.bottom-links .links span {
+  font-size: 20px;
+  color: #fff;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.bottom-links .links a {
+  text-decoration: none;
+  color: #a1a1a1;
+  padding: 10px 20px;
+}
+.bottom-links .links a:hover {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+  color: aqua;
+}
